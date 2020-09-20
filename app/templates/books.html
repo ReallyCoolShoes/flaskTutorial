@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <ol type="1">
+      {% for book in books %}
+    <li id="books">{{ book }}</li>
+     {% endfor %}
+    </ol>
+{% endblock %}
